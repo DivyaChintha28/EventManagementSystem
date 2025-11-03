@@ -9,6 +9,12 @@
     "react-router-dom": "^6.20.1"
   },
   "scripts": {
+  "prebuild": "chmod +x node_modules/.bin/vite",
+  "build": "vite build",
+  "dev": "vite"
+},
+
+  "scripts": {
     "start": "vite",
     "build": "vite build",
     "preview": "vite preview"
