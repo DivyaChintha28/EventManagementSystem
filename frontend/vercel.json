@@ -1,0 +1,4 @@
+{
+  "buildCommand": "chmod +x node_modules/vite/bin/vite.js && npm run build",
+  "outputDirectory": "dist"
+}
